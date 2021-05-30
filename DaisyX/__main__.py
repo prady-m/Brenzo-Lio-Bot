@@ -63,11 +63,11 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [𝔥𝔦𝔧𝔞𝔟𝔦 𝔮𝔲𝔢𝔢𝔫](https://telegra.ph/file/f161928cf7b133b43d34c.jpg)
+Hello there, I'm [🄱🅁🄴🄽🅉🄾 🄻🄸🄾](https://telegra.ph/file/f161928cf7b133b43d34c.jpg)
 
-I am a group manager bot made for managing groups. Join my updates channel for more. 
+I am powerfull telegram group manager bot and I can help you to control your chats.
 
-✪ Make sure you read *INFO* Section Below ✪ 
+✪ Developed by @Kunaldiwan ✪ 
 """
 
 buttons = [
