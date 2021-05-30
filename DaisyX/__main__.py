@@ -360,11 +360,11 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by Infinity_Bots.* "
-            f"\n\n 🔥 Join [Nesriya updates](https://t.me/NN_NAZRIYANAZEEM_BETA) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
-            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/f161928cf7b133b43d34c.jpg)"
-            f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
+            text=f"*👋 Hi again! My name {dispatcher.bot.first_name} 🤖 .\n\nAs I am next generation group management bot based on Ai .* "
+            f"\n\n *Join [Developed Bots](https://t.me/DevelopedBots) to get more bots like {dispatcher.bot.first_name} .* "
+            f"\n\n I have best Group managing functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the Sibyl banning system which safegaurds and helps your group from spammers."
+            f"\n\nI can Manage your groups smoothly, with some special features :)"
+            f"\n\n👇 You can know more about me by clicking the below buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
