@@ -361,7 +361,7 @@ def DaisyX_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*👋 Hi again! My name {dispatcher.bot.first_name} 🤖 .\n\nAs I am next generation group management bot based on Ai .* "
-            f"\n\n *Join [Developed Bots](https://t.me/DevelopedBots) to get more bots like {dispatcher.bot.first_name} .* "
+            f"\n\n *Join @DevelopedBots to get more bots like {dispatcher.bot.first_name} .* "
             f"\n\n I have best Group managing functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the Sibyl banning system which safegaurds and helps your group from spammers."
             f"\n\nI can Manage your groups smoothly, with some special features :)"
             f"\n\n👇 You can know more about me by clicking the below buttons 👇",
