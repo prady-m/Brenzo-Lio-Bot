@@ -397,8 +397,8 @@ def DaisyX_about_callback(update, context):
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
-            f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](https://t.me/NN_NAZRIYANAZEEM_BETA) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Nariya updates](https://t.me/NN_NAZRIYANAZEEM_BETA).\n"
+            f"\nJust add me to group and set {dispatcher.bot.first_name} for your chats . \n"
+            f"\n\nYou Choose below buttons to know about my basic commands.\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -412,16 +412,15 @@ def DaisyX_about_callback(update, context):
                             text="Anti Spam", callback_data="aboutmanu_spamprot"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
+                    [InlineKeyboardButton(text="Back 🔙", callback_data="aboutmanu_")],
                 ]
             ),
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nJoin [Updates channel](https://t.me/NN_NAZRIYANAZEEM_BETA) ."
-            f"\n\n{dispatcher.bot.first_name}'s source code."
-            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
+            f"\n\n{dispatcher.bot.first_name} is created by @kunaldiwan. "
+            f"\n\nIf any question about {dispatcher.bot.first_name}, \nLet us know at @DevelopedBotz.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -437,7 +436,7 @@ def DaisyX_about_callback(update, context):
             f"\n\nIf you are getting a message saying:"
             f"\n<Code>You must be this chat administrator to perform this action!</code>"
             f"\nThis has nothing to do with {dispatcher.bot.first_name}'s rights; this is all about YOUR permissions as an admin. {dispatcher.bot.first_name} respects admin permissions; if you do not have the Ban Users permission as a telegram admin, you won't be able to ban users with {dispatcher.bot.first_name}. Similarly, to change {dispatcher.bot.first_name} settings, you need to have the Change group info permission."
-            f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
+            f"\n\nThe message very clearly says that you need these rights - <b>not {dispatcher.bot.first_name}.</b>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
@@ -475,7 +474,7 @@ def DaisyX_about_callback(update, context):
     elif query.data == "aboutmanu_tac":
         query.message.edit_text(
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
-            f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
+            f"\n<b>To use this bot, You need to read terms and conditions carefully.</b>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
             f"\n✪ Always try to keep credits, so \n  This hardwork is done by Nesriya uodates team spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
