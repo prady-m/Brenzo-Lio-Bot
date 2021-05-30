@@ -72,21 +72,21 @@ I am powerfull telegram group manager bot and I can help you to control your cha
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="❓ Information ❓", callback_data="aboutmanu_"),
     ],
     [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
+        InlineKeyboardButton(text="⚙️ Commands Help ⚙️", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💫 UPDATES 💫", url="https://t.me/NN_NAZRIYANAZEEM_BETA"
+            text="➕ Add me to Your chat ➕", url="http://t.me/BrenzoLio_Bot?startgroup=true"
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [𝔥𝔦𝔧𝔞𝔟𝔦 𝔮𝔲𝔢𝔢𝔫](https://telegra.ph/file/f161928cf7b133b43d34c.jpg)
+*Main Commands :* [🄱🅁🄴🄽🅉🄾 🄻🄸🄾](https://telegra.ph/file/0415d7dc9fbfb15e77286.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -99,9 +99,9 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the @JINN_OF_TGS
-"""
+DONATE_STRING = """Heya, glad to hear you want to donate but as I am hosted in cheap database , So I don't need any donation .
+
+Developed by @kunaldiwan 👨‍💻 ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
