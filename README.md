@@ -9,7 +9,7 @@
 
 ![Brenzo Lio](https://telegra.ph/file/f48a3a9cad95fafd68a9a.jpg) 
 
-######## Developed by [@kunaldiwan](https://t.me/kunaldiwan) 👨‍💻
+#### Developed by [@kunaldiwan](https://t.me/kunaldiwan) 👨‍💻
 
 ```⚠️ Note - This bot is not cloned by other bot .```
 
