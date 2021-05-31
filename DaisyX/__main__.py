@@ -63,30 +63,30 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [🄱🅁🄴🄽🅉🄾 🄻🄸🄾](https://telegra.ph/file/0415d7dc9fbfb15e77286.jpg)
+Hello there, I'm [𝔥𝔦𝔧𝔞𝔟𝔦 𝔮𝔲𝔢𝔢𝔫](https://telegra.ph/file/f161928cf7b133b43d34c.jpg)
 
-I am powerfull telegram group manager bot and I can help you to control your chats.
+I am a group manager bot made for managing groups. Join my updates channel for more. 
 
-✪ Developed by @Kunaldiwan ✪ 
+✪ Make sure you read *INFO* Section Below ✪ 
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="❓ Information ❓", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
     ],
     [
-        InlineKeyboardButton(text="⚙️ Commands Help ⚙️", callback_data="help_back"),
+        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add me to Your chat ➕", url="http://t.me/BrenzoLio_Bot?startgroup=true"
+            text="💫 UPDATES 💫", url="https://t.me/NN_NAZRIYANAZEEM_BETA"
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🄱🅁🄴🄽🅉🄾 🄻🄸🄾](https://telegra.ph/file/0415d7dc9fbfb15e77286.jpg)
+*Main Commands :* [𝔥𝔦𝔧𝔞𝔟𝔦 𝔮𝔲𝔢𝔢𝔫](https://telegra.ph/file/f161928cf7b133b43d34c.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -99,9 +99,9 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate but as I am hosted in cheap database , So I don't need any donation .
-
-Developed by @kunaldiwan 👨‍💻 ."""
+DONATE_STRING = """Heya, glad to hear you want to donate!
+You can donate to the @JINN_OF_TGS
+"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -360,29 +360,29 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*👋 Hi again! My name {dispatcher.bot.first_name} 🤖 .\n\nAs I am next generation group management bot based on Ai .* "
-            f"\n\n *Join @DevelopedBots to get more bots like {dispatcher.bot.first_name} .* "
-            f"\n\n I have best Group managing functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the Sibyl banning system which safegaurds and helps your group from spammers."
-            f"\n\nI can Manage your groups smoothly, with some special features :)"
-            f"\n\n👇 You can know more about me by clicking the below buttons 👇",
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by Infinity_Bots.* "
+            f"\n\n 🔥 Join [Nesriya updates](https://t.me/NN_NAZRIYANAZEEM_BETA) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/f161928cf7b133b43d34c.jpg)"
+            f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="How to use me ❓", callback_data="aboutmanu_howto"
+                            text="How To Use Me", callback_data="aboutmanu_howto"
                         ),
                         InlineKeyboardButton(
-                            text="T & C 📌", callback_data="aboutmanu_tac"
+                            text="T & C", callback_data="aboutmanu_tac"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="⚒️ Help & Commands ⚒️", callback_data="help_back"
+                            text="❔Help & Commands", callback_data="help_back"
                         )
                     ],
-                    [InlineKeyboardButton(text="Back 🔙", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -397,8 +397,8 @@ def DaisyX_about_callback(update, context):
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
-            f"\nJust add me to group and set {dispatcher.bot.first_name} for your chats . \n"
-            f"\n\nYou Choose below buttons to know about my basic commands.\n"
+            f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](https://t.me/NN_NAZRIYANAZEEM_BETA) And Selecting Chat. \n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Nariya updates](https://t.me/NN_NAZRIYANAZEEM_BETA).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -412,15 +412,16 @@ def DaisyX_about_callback(update, context):
                             text="Anti Spam", callback_data="aboutmanu_spamprot"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back 🔙", callback_data="aboutmanu_")],
+                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
                 ]
             ),
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\n{dispatcher.bot.first_name} is created by @kunaldiwan. "
-            f"\n\nIf any question about {dispatcher.bot.first_name}, \nLet us know at @DevelopedBotz.",
+            f"\n\nJoin [Updates channel](https://t.me/NN_NAZRIYANAZEEM_BETA) ."
+            f"\n\n{dispatcher.bot.first_name}'s source code."
+            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -436,7 +437,7 @@ def DaisyX_about_callback(update, context):
             f"\n\nIf you are getting a message saying:"
             f"\n<Code>You must be this chat administrator to perform this action!</code>"
             f"\nThis has nothing to do with {dispatcher.bot.first_name}'s rights; this is all about YOUR permissions as an admin. {dispatcher.bot.first_name} respects admin permissions; if you do not have the Ban Users permission as a telegram admin, you won't be able to ban users with {dispatcher.bot.first_name}. Similarly, to change {dispatcher.bot.first_name} settings, you need to have the Change group info permission."
-            f"\n\nThe message very clearly says that you need these rights - <b>not {dispatcher.bot.first_name}.</b>",
+            f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
@@ -474,7 +475,7 @@ def DaisyX_about_callback(update, context):
     elif query.data == "aboutmanu_tac":
         query.message.edit_text(
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
-            f"\n<b>To use this bot, You need to read terms and conditions carefully.</b>\n"
+            f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
             f"\n✪ Always try to keep credits, so \n  This hardwork is done by Nesriya uodates team spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
