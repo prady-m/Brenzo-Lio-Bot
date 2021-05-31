@@ -7,6 +7,6 @@
 ```After Deploying Enable both Dynos to run your Bot 👇```
 
 
-https://telegra.ph/file/f48a3a9cad95fafd68a9a.jpg
+![Brenzo Lio](https://telegra.ph/file/f48a3a9cad95fafd68a9a.jpg) 
 
 
