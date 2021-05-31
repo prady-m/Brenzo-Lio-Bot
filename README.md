@@ -1,4 +1,4 @@
-### [Brenzo Lio](https://telegram.dog/BrenzoLio_Bot]
+### [Brenzo Lio](https://t.me/BrenzoLio_Bot)
 
  Powerfull Bot to manage Telegram group . This Bot is based on Artificial Intelligence .
 
