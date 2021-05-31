@@ -1,11 +1,14 @@
-### NESRI-X
+### Brenzo Lio
 
 
-### JOIN OUR SUPPORT CHAT AND CHANNEL FOR MORE KNOWING ABOUT ME..   
+### Powerfull Bot to manage Telegram group . This Bot is based on Artificial Intelligence .
 
-🔰CHANNEL :- [CLICK HERE](https://t.me/NN_NAZRIYANAZEEM_BETA) 
 
-🔰GROUP :- [CLICK HERE](https://t.me/NN_NAZRIYANAZEEMBETA) 
+#### Deploy
+
+### ```⚠️ Note - This bot is not cloned by other bot .```
+
+
 
 
 
