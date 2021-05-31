@@ -77,8 +77,6 @@ buttons = [
     ],
          InlineKeyboardButton(
             text="News channel 📢 ", url="https://t.me/DevelopedBots"), 
-        InlineKeyboardButton(
-            text="Support🕹️", url="https://t.me/DevelopedBotz"), 
 
     [
         InlineKeyboardButton(
