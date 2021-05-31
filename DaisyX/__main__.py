@@ -73,10 +73,11 @@ I am powerfull telegram group manager bot and I can help you to control your cha
 buttons = [
     [
         InlineKeyboardButton(text="❓ Information ❓", callback_data="aboutmanu_"),
-    ],
-    [
         InlineKeyboardButton(text="⚙️ Commands Help ⚙️", callback_data="help_back"),
     ],
+
+        
+
     [
         InlineKeyboardButton(
             text="➕ Add me to Your chat ➕", url="http://t.me/BrenzoLio_Bot?startgroup=true"
@@ -100,7 +101,7 @@ HELP_STRINGS = f"""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate but as I am hosted in cheap database , So I don't need any donation .
-
+You can donate to @JINN_OF_TELEGRAM OR THE PERSON CURRENTLY RUNNING ME HERE
 Developed by @kunaldiwan 👨‍💻 ."""
 
 IMPORTED = {}
