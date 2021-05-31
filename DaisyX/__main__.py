@@ -103,7 +103,7 @@ HELP_STRINGS = f"""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate but as I am hosted in cheap database , So I don't need any donation .
-You can donate to [JINNOFTELEGRAM](https://t.me/JINNOFTELEGRAM) OR THE PERSON CURRENTLY RUNNING ME HERE
+You can donate to [JINNOFTELEGRAM](https://t.me/JINN_OF_TELEGRAM) OR THE PERSON CURRENTLY RUNNING ME HERE
 Developed by @kunaldiwan 👨‍💻 ."""
 
 IMPORTED = {}
