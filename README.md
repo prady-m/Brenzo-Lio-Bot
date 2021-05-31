@@ -1,7 +1,6 @@
 ### Brenzo Lio
 
-
-### Powerfull Bot to manage Telegram group . This Bot is based on Artificial Intelligence .
+ Powerfull Bot to manage Telegram group . This Bot is based on Artificial Intelligence .
 
 
 #### Deploy
