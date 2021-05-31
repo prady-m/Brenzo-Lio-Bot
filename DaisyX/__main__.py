@@ -73,11 +73,13 @@ I am powerfull telegram group manager bot and I can help you to control your cha
 buttons = [
     [
         InlineKeyboardButton(text="❓ Information ❓", callback_data="aboutmanu_"),
-    ],
-    [
+
+    ),
         InlineKeyboardButton(text="⚙️ Commands Help ⚙️", callback_data="help_back"),
-    ],
-    [
+    ),
+    
+  ],
+  [
         InlineKeyboardButton(
             text="➕ Add me to Your chat ➕", url="http://t.me/BrenzoLio_Bot?startgroup=true"
         ),
