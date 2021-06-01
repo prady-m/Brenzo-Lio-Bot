@@ -72,18 +72,21 @@ I am powerfull telegram group manager bot and I can help you to control your cha
 
 buttons = [
     [
-        InlineKeyboardButton(text="❓ Information ❓", callback_data="aboutmanu_"),
+        InlineKeyboardButton(
+            text="➕ Add me to your chat ➕", url="t.me/BrenzoLio_Bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="⚙️ Commands Help ⚙️", callback_data="help_back"),
+        InlineKeyboardButton(text="ℹ️ information ℹ️", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="⚙ Help ⚙", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add me to Your chat ➕", url="http://t.me/BrenzoLio_Bot?startgroup=true"
+            text="🔔 Channel 🔔", url="t.me/DevelopedBots"),
+        InlineKeyboardButton(
+            text="📣 Group 📣", url="t.me/DevelopedBotz"
         ),
     ],
 ]
-
 
 HELP_STRINGS = f"""
 *Main Commands :* [🄱🅁🄴🄽🅉🄾 🄻🄸🄾](https://telegra.ph/file/0415d7dc9fbfb15e77286.jpg)
