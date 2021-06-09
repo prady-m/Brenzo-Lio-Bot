@@ -63,17 +63,17 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [🄱🅁🄴🄽🅉🄾 🄻🄸🄾](https://telegra.ph/file/0415d7dc9fbfb15e77286.jpg)
+Hello there, I'm [Prady Manager](https://telegra.ph/file/1737c4bbb8bb6c026b3f5.jpg)
 
 I am powerfull telegram group manager bot and I can help you to control your chats.
 
-✪ Developed by @Kunaldiwan ✪ 
+✪ Developed by @PradyMit ✪ 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add me to your chat ➕", url="t.me/BrenzoLio_Bot?startgroup=true"),
+            text="➕ Add me to your chat ➕", url="t.me/PradyRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ information ℹ️", callback_data="aboutmanu_"),
@@ -89,7 +89,7 @@ buttons = [
 ]
 
 HELP_STRINGS = f"""
-*Main Commands :* [🄱🅁🄴🄽🅉🄾 🄻🄸🄾](https://telegra.ph/file/0415d7dc9fbfb15e77286.jpg)
+*Main Commands :* [Prady Manager](https://telegra.ph/file/1737c4bbb8bb6c026b3f5.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -104,7 +104,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate but as I am hosted in cheap database , So I don't need any donation .
 
-Developed by @kunaldiwan 👨‍💻 ."""
+Developed by @pradyMit 👨‍💻 ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
